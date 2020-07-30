@@ -1,26 +1,73 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <title>MARK IS 福岡ももち（マークイズ福岡ももち）</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="『MARK IS（マークイズ）』は、街とともに成長し、人々に長く深く愛され続けるランドマークでありたいという願いを込めて名付けられた、三菱地所グループの単独商業施設です。">
+  <meta property="og:title" content="MARK IS 福岡ももち（マークイズ福岡ももち）" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.mec-markis.jp/fukuoka-momochi/" />
+  <meta property="og:image" content="http://www.mec-markis.jp/fukuoka-momochi/assets/img/common/img_ogp.jpg" />
+  <meta property="og:site_name" content="MARK IS 福岡ももち（マークイズ福岡ももち）" />
+  <meta property="og:description" content="『MARK IS（マークイズ）』は、街とともに成長し、人々に長く深く愛され続けるランドマークでありたいという願いを込めて名付けられた、三菱地所グループの単独商業施設です。" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="MARK IS 福岡ももち（マークイズ福岡ももち）" />
+  <meta name="twitter:url" content="https://www.mec-markis.jp/fukuoka-momochi/" />
+  <meta name="twitter:description" content="『MARK IS（マークイズ）』は、街とともに成長し、人々に長く深く愛され続けるランドマークでありたいという願いを込めて名付けられた、三菱地所グループの単独商業施設です。" />
+  <meta name="twitter:image" content="http://www.mec-markis.jp/fukuoka-momochi/assets/img/common/img_ogp.jpg" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+  <script src="/fukuoka-momochi/assets/js/scroll.js"></script>
+  <link rel="shortcut icon" href="/fukuoka-momochi/assets/img/common/favicon.ico" />
+  <link rel="apple-touch-icon" href="/fukuoka-momochi/assets/img/common/icon_appleTouch.jpg" sizes="80x80">
+  <link rel="stylesheet" href="/fukuoka-momochi/assets/css/style.css?200618">
+  <!-- <link rel="stylesheet" href="/fukuoka-momochi/chatbot.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass:400,800%7cPacifico">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+  <div class="l_wrapper">
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header class="l_header">
+  <div class="l_header_inner">
+    <a href="javascript:void(0);" class="l_header_menuBtn js_spMenuOpen u_pcHide">
+      <div class="l_header_menuBtn_icon">
+        <span class="l_header_menuBtn_icon_bar">menu</span>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
+      <span class="l_header_menuBtn_text c_fontOverpass c_fontOverpass__exBold">MENU</span>
+      <span class="l_header_menuBtn_text l_header_menuBtn_text__close c_fontOverpass c_fontOverpass__exBold">CLOSE</span>
+    </a>
+    <div class="l_header_parking">
+      <picture>
+        <source srcset="/fukuoka-momochi/assets/img/common/txt_parking_empty_pc.png" media="(min-width: 769px)">
+        <source srcset="/fukuoka-momochi/assets/img/common/txt_parking_empty_sp.png" media="(max-width: 768px)">
+        <img src="/fukuoka-momochi/assets/img/common/txt_parking_empty_pc.png" alt="パーキング">
+      </picture>
     </div>
-  </header>
+    <h1 class="l_header_logo">
+      <a href="/fukuoka-momochi/" class="u_hover">
+        <img src="/fukuoka-momochi/assets/img/common/logo_markis.svg" width="230" height="55" alt="MARK IS 福岡ももち">
+      </a>
+    </h1>
+    <div class="l_header_selectLanguage">
+      <div id="google_translate_element"></div>
+    </div>
+  </div>
+</header>
+<div class="c_spNaviWrapper js_spMenu">
   <div class="c_spNavi">
     <div class="c_globalNavi u_mb20">
       <div class="c_globalNavi_inner">
@@ -74,71 +121,699 @@
         </a>
       </div>
     </div>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+    <div class="u_mb30">
+      <picture class="c_pictureElement">
+        <source srcset="/fukuoka-momochi/assets/img/common/txt_parking_2_empty_pc.png" media="(min-width: 769px)">
+        <source srcset="/fukuoka-momochi/assets/img/common/txt_parking_2_empty_sp.png" media="(max-width: 768px)">
+        <img src="/fukuoka-momochi/assets/img/common/txt_parking_2_empty_pc.png" alt="パーキング">
+      </picture>
+    </div>
+    <section class="c_sideBox">
+      <h2 class="c_sideBox_title">
+        <img src="/fukuoka-momochi/assets/img/common/icon_search.svg" class="c_sideBox_title_icon" alt="SHOP SEARCH">SHOP SEARCH</h2>
+      <p class="c_sideBox_subTitle c_sideBox_subTitle__first">カテゴリから探す</p>
+      <div class="c_shopCategoryList" id="js_sideCategorySelectSp">
+        <a v-for="(item,index) in result" :href="'/fukuoka-momochi/search/index.html?category='+(index+1)">
+          <img :src="'/fukuoka-momochi/assets/img/common/icon_category_'+index+'.svg'" alt="icon">
+          <span>{{ item.shop_category.shop_category_name }}</span>
+        </a>
       </div>
+      <p class="c_sideBox_subTitle">50音順から探す</p>
+      <ul class="c_shopSearchList">
+        <li><a href="/fukuoka-momochi/search/index.html?initial=1">あ</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=2">か</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=3">さ</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=4">た</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=5">な</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=6">は</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=7">ま</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=8">や</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=9">ら</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=10">わ</a></li>
+      </ul>
+      <p class="c_sideBox_subTitle">アルファベットから探す</p>
+      <ul class="c_shopSearchList">
+        <li><a href="/fukuoka-momochi/search/index.html?initial=11">A</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=12">B</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=13">C</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=14">D</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=15">E</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=16">F</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=17">G</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=18">H</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=19">I</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=20">J</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=21">K</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=22">L</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=23">M</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=24">N</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=25">O</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=26">P</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=27">Q</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=28">R</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=29">S</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=30">T</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=31">U</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=32">V</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=33">W</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=34">X</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=35">Y</a></li>
+        <li><a href="/fukuoka-momochi/search/index.html?initial=36">Z</a></li>
+      </ul>
+      <p class="c_sideBox_subTitle">フロアから探す</p>
+      <ul class="c_shopSearchList" id="js_sideFloorSelectSp">
+        <li v-for="(item,index) in result">
+          <a :href="'/fukuoka-momochi/search/index.html?floor='+(index+1)">{{ item.floor_map.facility_floor_name }}</a>
+        </li>
+      </ul>
+    </section>
+    <section class="c_sideBox">
+      <h2 class="c_sideBox_title">
+        <img src="/fukuoka-momochi/assets/img/common/icon_car.svg" class="c_sideBox_title_icon" alt="SHOP SEARCH">ACCESS</h2>
+      <div class="c_sideBox_map">
+        <a href="/fukuoka-momochi/access/" class="u_hover">
+          <img src="/fukuoka-momochi/assets/img/common/img_accessMap.jpg" class="u_wh100p" alt="map">
+        </a>
+      </div>
+      <a href="/fukuoka-momochi/access/" class="c_sideBox_button">アクセスはこちら</a>
+    </section>
+    <section class="c_sideBox" id="js_spNaviOpenHour">
+      <h2 class="c_sideBox_title u_mb15"><img src="/fukuoka-momochi/assets/img/common/icon_time_2.svg" class="c_sideBox_title_icon" alt="HOURS">OPEN HOUR</h2>
+      <template v-for="item in result" v-if="item.facility_info.facility_info_class == '01'">
+        <p v-html="text2html(item.facility_info.facility_title)" class="u_fwBold"></p>
+        <p v-html="item.facility_info.facility_text" class="u_mb15"></p>
+      </template>
+      <p>一部店舗は、営業時間が異なります。</p>
+      <a href="/fukuoka-momochi/access/" class="c_sideBox_button">詳しくはこちら</a>
+    </section>
+    <div class="c_followme">
+      <p class="c_followme_txt">
+        <img src="/fukuoka-momochi/assets/img/common/txt_followme.png" alt="follow me">
+      </p>
+      <div class="c_followme_link">
+        <a href="https://www.instagram.com/markisfukuokamomochi/" class="u_hover" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/markisfukuokamomochi/" class="u_hover" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <ul class="c_spNavi_banner" id="js_smallBanner" v-cloak v-if="isNotEmptyResult">
+      <li v-for="item in result">
+        <a v-if="item.banners.banner_move_type_class === '01'" :href="item.banners.banner_img_url" class="u_hover">
+          <img :src="item.banners.img | imagePass" alt="Banner" class="u_wh100p">
+        </a>
+        <a v-else :href="item.banners.banner_img_url" target="_blank" class="u_hover">
+          <img :src="item.banners.img | imagePass" alt="Banner" class="u_wh100p">
+        </a>
+      </li>
+    </ul>
+    <section class="c_spNavi_accordion">
+      <h2 class="c_spNavi_accordion_title js_accordionTrigger">サイトマップ</h2>
+      <div class="c_spNavi_accordion_inner js_accordion">
+        <ul class="c_spNavi_subLinkList">
+          <li><a href="/fukuoka-momochi/">トップページ</a></li>
+          <li><a href="/fukuoka-momochi/news/">ショップニュース</a></li>
+          <li><a href="/fukuoka-momochi/search/">ショップ検索</a></li>
+          <li><a href="/fukuoka-momochi/recruit/">スタッフ募集</a></li>
+          <li><a href="/fukuoka-momochi/open/">営業時間</a></li>
+          <li><a href="/fukuoka-momochi/topics/">トピックス</a></li>
+          <li><a href="/fukuoka-momochi/access/">アクセス</a></li>
+          <li><a href="/fukuoka-momochi/mamais/">ママイズ</a></li>
+          <li><a href="/fukuoka-momochi/service/">施設サービスご案内</a></li>
+          <li><a href="/fukuoka-momochi/sitemap/">サイトマップ</a></li>
+          <li><a href="/fukuoka-momochi/notice/">サイト利用上の注意</a></li>
+          <li><a href="/fukuoka-momochi/facility/">施設紹介</a></li>
+          <li><a href="/fukuoka-momochi/app/">アプリのご案内</a></li>
+          <li><a href="/fukuoka-momochi/sns/">ソーシャルメディアポリシー</a></li>
+          <li><a href="/fukuoka-momochi/privacypolicy/">プライバシーポリシー</a></li>
+          <li><a href="/fukuoka-momochi/contact/">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+    <div id="js_alert" class="top_emergency" v-if="display" v-cloak>
+      <p v-if="result[0].emergency_announce.attached_file_name" class="top_emergency_text">
+        <a :href="generateImagePass(result[0].emergency_announce.attached_file_name)" target="_blank">{{ result[0].emergency_announce.emgncy_announce_text }}</a>
+      </p>
+      <p v-else class="top_emergency_text">{{ result[0].emergency_announce.emgncy_announce_text }}</p>
+    </div>
+    <div id="js_topSlider" class="top_mainSlider js_mainSlider" v-if="isNotEmptyResult">
+      <template v-for="item in result">
+        <a v-if="item.banners.banner_move_type_class === '01'" :href="item.banners.banner_img_url">
+          <img :src="item.banners.img | imagePass" alt="slider">
+        </a>
+        <a v-else :href="item.banners.banner_img_url" target="_blank">
+          <img :src="item.banners.img | imagePass" alt="slider">
+        </a>
+      </template>
+    </div>
+    <nav class="c_globalNavi c_globalNavi__static js_gnav">
+  <div class="c_globalNavi_inner">
+    <a href="/fukuoka-momochi/event/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_calendar.svg" width="42" height="39" alt="イベント" class="c_globalNavi_item_icon c_globalNavi_item_icon__event">
+        <span class="c_globalNavi_item_text">イベント</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/news/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_news.svg" width="52" height="36" alt="ショップニュース" class="c_globalNavi_item_icon c_globalNavi_item_icon__news">
+        <span class="c_globalNavi_item_text">ショップニュース</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/topics/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_info.svg" width="40" height="40" alt="トピックス" class="c_globalNavi_item_icon c_globalNavi_item_icon__topics">
+        <span class="c_globalNavi_item_text">トピックス</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/search/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_floor.svg" width="44" height="43" alt="フロアガイド" class="c_globalNavi_item_icon c_globalNavi_item_icon__guide">
+        <span class="c_globalNavi_item_text">フロアガイド</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/mamais/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_mamais.svg" width="54" height="43" alt="ママイズ" class="c_globalNavi_item_icon c_globalNavi_item_icon__mamais">
+        <span class="c_globalNavi_item_text">ママイズ</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/recruit/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_recruit.png" width="55" height="43" alt="スタッフ募集" class="c_globalNavi_item_icon c_globalNavi_item_icon__recruit">
+        <span class="c_globalNavi_item_text">スタッフ募集</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/open/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_time.svg" width="41" height="42" alt="営業時間" class="c_globalNavi_item_icon c_globalNavi_item_icon__time">
+        <span class="c_globalNavi_item_text">営業時間</span>
+      </div>
+    </a>
+    <a href="/fukuoka-momochi/access/" class="c_globalNavi_item">
+      <div class="c_globalNavi_item_inner">
+        <img src="/fukuoka-momochi/assets/img/common/icon_carORE.svg" width="50" height="42" alt="アクセス" class="c_globalNavi_item_icon c_globalNavi_item_icon__access">
+        <span class="c_globalNavi_item_text">アクセス</span>
+      </div>
+    </a>
+  </div>
+</nav>
+<div class="c_fixedHeaderWrapper u_spHide js_fixHeader">
+  <header class="l_header">
+    <div class="l_header_inner">
+      <div class="l_header_parking">
+        <img src="/fukuoka-momochi/assets/img/common/txt_parking_empty_pc.png" alt="" class="u_spHide">
+      </div>
+      <h1 class="l_header_logo">
+        <a href="/fukuoka-momochi/" class="u_hover">
+          <img src="/fukuoka-momochi/assets/img/common/logo_markis.svg" width="230" height="55" alt="MARK IS 福岡ももち">
+        </a>
+      </h1>
+    </div>
+  </header>
+  <div class="c_globalNavi">
+    <div class="c_globalNavi_inner">
+      <a href="/fukuoka-momochi/event/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_calendar.svg" width="42" height="39" alt="イベント" class="c_globalNavi_item_icon c_globalNavi_item_icon__event">
+          <span class="c_globalNavi_item_text">イベント</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/news/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_news.svg" width="52" height="36" alt="ショップニュース" class="c_globalNavi_item_icon c_globalNavi_item_icon__news">
+          <span class="c_globalNavi_item_text">ショップニュース</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/topics/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_info.svg" width="40" height="40" alt="トピックス" class="c_globalNavi_item_icon c_globalNavi_item_icon__topics">
+          <span class="c_globalNavi_item_text">トピックス</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/search/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_floor.svg" width="44" height="43" alt="フロアガイド" class="c_globalNavi_item_icon c_globalNavi_item_icon__guide">
+          <span class="c_globalNavi_item_text">フロアガイド</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/mamais/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_mamais.svg" width="54" height="43" alt="ママイズ" class="c_globalNavi_item_icon c_globalNavi_item_icon__mamais">
+          <span class="c_globalNavi_item_text">ママイズ</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/recruit/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_recruit.png" width="55" height="43" alt="スタッフ募集" class="c_globalNavi_item_icon c_globalNavi_item_icon__recruit">
+          <span class="c_globalNavi_item_text">スタッフ募集</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/open/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_time.svg" width="41" height="42" alt="営業時間" class="c_globalNavi_item_icon c_globalNavi_item_icon__time">
+          <span class="c_globalNavi_item_text">営業時間</span>
+        </div>
+      </a>
+      <a href="/fukuoka-momochi/access/" class="c_globalNavi_item">
+        <div class="c_globalNavi_item_inner">
+          <img src="/fukuoka-momochi/assets/img/common/icon_carORE.svg" width="50" height="42" alt="アクセス" class="c_globalNavi_item_icon c_globalNavi_item_icon__access">
+          <span class="c_globalNavi_item_text">アクセス</span>
+        </div>
+      </a>
     </div>
   </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
+</div>
+    <div class="top_stripeArea">
+      <section id="js_eventList" class="top_event" data-cnt="16" data-slider="true" v-cloak v-if="isNotEmptyResult">
+        <h2 class="c_contentsTitle">
+          <span class="c_contentsTitle_inner">EVENT
+            <span class="c_contentsTitle_inner_japanese">イベント情報</span>
+          </span>
+        </h2>
+        <div class="c_thumbnail c_thumbnail__withBorder top_thumbnail js_topEventSlider">
+          <div class="c_thumbnail_itemWrapper" v-for="item in result.store_article">
+            <a :href="'event/detail.php?id='+item.id" class="c_thumbnail_item js_eventSlideItem">
+              <span class="c_thumbnail_item_tag" v-if="isNew(item.start_date)">New</span>
+              <div class="c_thumbnail_item_image" :style="'background-image:url('+generateImagePass(item.thmbnl_img)+');'"></div>
+              <div class="c_thumbnail_item_box">
+                <p class="c_thumbnail_item_box_title u_fwBold">{{ item.store_article_title }}</p>
+              </div>
+            </a>
           </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
+        <a href="event/" class="c_button top_moreButton" v-if="result.total_pages > 1">MORE<i class="c_button_icon fas fa-angle-right"></i></a>
+      </section>
+      <section id="js_specialList" class="top_special" v-if="isNotEmptyResult" v-cloak>
+        <div class="l_contents">
+          <h2 class="c_contentsTitle">
+            <span class="c_contentsTitle_inner">SPECIAL
+              <span class="c_contentsTitle_inner_japanese">特集</span>
+            </span>
+          </h2>
+          <div class="top_specialBanner">
+            <a v-for="item in result.feature_article" :href="'special/index.php?id='+item.id" class="u_hover">
+              <img :src="item.thmbnl_img | imagePass" alt="banner">
+            </a>
           </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
+      </section>
+      <section id="js_newsList" class="top_shopNews u_mb50pc u_mb15sp" data-cnt="8" data-slider="true" v-if="isNotEmptyResult" v-cloak>
+        <h2 class="c_contentsTitle">
+          <span class="c_contentsTitle_inner">SHOP NEWS
+            <span class="c_contentsTitle_inner_japanese">ショップニュース</span>
+          </span>
+        </h2>
+        <div class="c_thumbnail c_thumbnail__withBorder top_thumbnail js_topShopNewsSlider">
+          <div class="c_thumbnail_itemWrapper" v-for="item in result.shop_article">
+            <a :href="'news/detail.php?id='+item.id+'&shop_id='+item.shop_id" class="c_thumbnail_item js_newsSlideItem">
+              <span class="c_thumbnail_item_tag" v-if="isNew(item.start_date)">New</span>
+              <div class="c_thumbnail_item_image" :style="'background-image:url('+generateImagePass(item.main_img)+');'"></div>
+              <div class="c_thumbnail_item_box">
+                <p class="u_mb5 c_categoryBadge c_categoryBadge__shop" v-if="item.shop_category_name === 'ショップ'">SHOP</p>
+                <p class="u_mb5 c_categoryBadge c_categoryBadge__entertainment" v-else-if="item.shop_category_name === 'エンターテイメント'">ENTERTAIMENT</p>
+                <p class="u_mb5 c_categoryBadge c_categoryBadge__food" v-else-if="item.shop_category_name === 'フード'">FOOD</p>
+                <p class="u_mb5 c_categoryBadge c_categoryBadge__restaurant" v-else-if="item.shop_category_name === 'カフェ・レストラン'">CAFE,RESTAURANT</p>
+                <p class="u_mb5 c_categoryBadge c_categoryBadge__service" v-else-if="item.shop_category_name === 'サービス'">SERVICE</p>
+                <p class="c_thumbnail_item_box_shop">【{{ item.facility_floor_name }}】{{ item.shop_name }}</p>
+                <p class="c_thumbnail_item_box_title">{{ item.title }}</p>
+                <p class="c_thumbnail_item_box_update">{{ item.start_date | dateLocalize }}</p>
+              </div>
+            </a>
           </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/naJJEsqrcfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="clear"></div>
+        <a href="news/" class="c_button top_moreButton" v-if="result.total_pages > 1">MORE<i class="c_button_icon fas fa-angle-right"></i></a>
+      </section>
     </div>
+    
+    <section id="js_informationList" class="top_topics u_mb60pc u_mb50sp" data-cnt="8" v-if="isNotEmptyResult" v-cloak>
+      <div class="l_contents">
+        <div class="top_topics_body">
+          <h2 class="top_topics_body_title">TOPICS</h2>
+          <div class="top_topics_body_box" :class="{ 'is_active' : active }">
+            <dl class="top_topics_body_box_list" v-for="item in result.store_article">
+              <dt>{{ item.start_date }}</dt>
+              <dd>
+                <a :href="'topics/detail.php?id='+item.id">
+                  <span v-if="isNew(item.start_date)">New</span>{{ item.store_article_title }}
+                </a>
+              </dd>
+            </dl>
+            <div v-if="result.total_pages > 1 && active">
+              <a href="topics/" class="c_button top_topics_body_box_button">MORE<i class="c_button_icon fas fa-angle-right"></i></a>
+            </div>
+          </div>
+          <a href="#" @click.prevent="active = false" v-if="active" class="top_topics_body_close"><i class="far fa-minus-square"></i></a>
+        </div>
+        <div class="top_topics_more" v-if="result.store_article.length > 4 && !active">
+          <a href="#" @click.prevent="active = true">もっと見る<i class="far fa-plus-square"></i></a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="top_information">
+      <h2 class="top_information_title">INFORMATION</h2>
+      <div class="l_contents">
+        <ul class="top_information_list" id="js_topMediumBanner" v-cloak v-if="isNotEmptyResult">
+          <li v-for="item in result">
+            <a v-if="item.banners.banner_move_type_class === '01'" :href="item.banners.banner_img_url">
+              <img :src="item.banners.img | imagePass" alt="banner">
+            </a>
+            <a v-else :href="item.banners.banner_img_url" target="_blank">
+              <img :src="item.banners.img | imagePass" alt="banner">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="l_contents">
+      <section class="top_search">
+        <h2 class="c_contentsTitle">
+          <span class="c_contentsTitle_inner">SHOP SEARCH
+            <span class="c_contentsTitle_inner_japanese">ショップ検索</span>
+          </span>
+        </h2>
+        <section class="top_search_section">
+          <h3 class="top_search_section_title">カテゴリから探す</h3>
+          <div class="c_shopCategoryList" id="js_sideCategorySelect" v-cloak v-if="isNotEmptyResult">
+            <a v-for="(item,index) in result" :href="'search/index.html?category='+(index+1)" class="u_hover">
+              <img :src="'assets/img/common/icon_category_'+index+'.svg'" alt="category">
+              <span>{{ item.shop_category.shop_category_name }}</span>
+            </a>
+          </div>
+        </section>
+        <section class="top_search_section">
+          <h3 class="top_search_section_title">50音順から探す</h3>
+          <ul class="c_shopSearchList">
+            <li>
+              <a href="search/index.html?initial=1">あ</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=2">か</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=3">さ</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=4">た</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=5">な</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=6">は</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=7">ま</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=8">や</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=9">ら</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=10">わ</a>
+            </li>
+          </ul>
+        </section>
+        <section class="top_search_section">
+          <h3 class="top_search_section_title">アルファベットから探す</h3>
+          <ul class="c_shopSearchList">
+            <li>
+              <a href="search/index.html?initial=11">A</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=12">B</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=13">C</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=14">D</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=15">E</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=16">F</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=17">G</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=18">H</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=19">I</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=20">J</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=21">K</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=22">L</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=23">M</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=24">N</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=25">O</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=26">P</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=27">Q</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=28">R</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=29">S</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=30">T</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=31">U</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=32">V</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=33">W</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=34">X</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=35">Y</a>
+            </li>
+            <li>
+              <a href="search/index.html?initial=36">Z</a>
+            </li>
+          </ul>
+        </section>
+        <section class="top_search_section">
+          <h3 class="top_search_section_title">フロアから探す</h3>
+          <ul class="c_shopSearchList c_shopSearchList__pcCenter" id="js_sideFloorSelect" v-cloak v-if="isNotEmptyResult">
+            <li v-for="(item,index) in result">
+              <a :href="'search/index.html?floor='+(index+1)">{{ item.floor_map.facility_floor_name }}</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </div>
+    <div class="c_followme">
+      <p class="c_followme_txt">
+        <img src="assets/img/common/txt_followme.png" alt="follow me">
+      </p>
+      <div class="c_followme_link">
+        <a href="https://www.instagram.com/markisfukuokamomochi/" class="u_hover" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/markisfukuokamomochi/" class="u_hover" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <div class="top_social l_contents">
+      <section class="top_social_section top_social_section__instagram">
+        <h2 class="top_social_section_title"><i class="fab fa-instagram"></i>Instagram</h2>
+        <img src="assets/img/top/img_instagram.jpg" class="u_wh100p" alt="instagram">
+        <a class="top_social_section_instagramButton u_hover" href="https://www.instagram.com/markisfukuokamomochi/" target="_blank">
+          <span>公式Instagramへ</span>
+        </a>
+      </section>
+      <section class="top_social_section top_social_section__facebook">
+        <h2 class="top_social_section_title"><i class="fab fa-facebook"></i>facebook</h2>
+        <div class="top_social_section_facebookBody">
+          <div class="fb-page" data-href="https://www.facebook.com/markisfukuokamomochi/" data-width="500" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/markisfukuokamomochi/" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/markisfukuokamomochi/">Facebook</a>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </div>
+    <ul class="top_bottomBanner l_contents">
+      <li>
+        <a href="./card/">
+          <picture>
+            <source srcset="assets/img/top/bnr_card_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_card_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_card_pc.jpg" alt="三菱地所グループCARD">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://ims-tenjin.jp/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_ims_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_ims_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_ims_pc.jpg" alt="INTER MEDIA STATION">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.premiumoutlets.co.jp/tosu/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_tos_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_tos_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_tos_pc.jpg" alt="鳥栖プレミアム・アウトレット">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="../mm/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_minatomirai_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_minatomirai_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_minatomirai_pc.jpg" alt="MARK IS minatomirai">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="../shizuoka/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_shizuoka_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_shizuoka_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_shizuoka_pc.jpg" alt="MARK IS shizuoka">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.the-royalpark.jp/the/fukuoka/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_royal_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_royal_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_royal_pc.jpg" alt="THE ROYAL PARK FUKUOKA">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://hall.zepp.co.jp/fukuoka/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_zepp_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_zepp_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_zepp_pc.jpg" alt="Zepp Fukuoka">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.unitedcinemas.jp/fukuoka/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_cineplex_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_cineplex_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_cineplex_pc.jpg" alt="ユナイテッド・シネマ福岡">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.softbankhawks.co.jp/stadium/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_paypay_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_paypay_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_paypay_pc.jpg" alt="paypayドーム">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.hiltonfukuokaseahawk.jp/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_hilton_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_hilton_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_hilton_pc.jpg" alt="hilton">
+          </picture>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.mecsumai.com/tph-fukuokatowers/" target="_blank">
+          <picture>
+            <source srcset="assets/img/top/bnr_parkhouse_pc.jpg" media="(min-width: 769px)">
+            <source srcset="assets/img/top/bnr_parkhouse_sp.jpg" media="(max-width: 768px)">
+            <img src="assets/img/top/bnr_parkhouse_pc.jpg" alt="ザ・パークハウス福岡タワーズ">
+          </picture>
+        </a>
+      </li>
+    </ul>
+    <div class="c_pagetop js_pageTop">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+<footer class="l_footer">
+  <div class="l_footer_link l_contents u_spHide">
+    <ul class="l_footer_link_list">
+
+      <li><a href="/fukuoka-momochi/event/">イベント</a></li>
+      <li><a href="/fukuoka-momochi/news/">ショップニュース</a></li>
+      <li><a href="/fukuoka-momochi/topics/">トピックス</a></li>
+      <li><a href="/fukuoka-momochi/search/index.html?floor=1">フロアガイド</a></li>
+      <li><a href="/fukuoka-momochi/facility/">施設紹介</a></li>
+      <li><a href="/fukuoka-momochi/recruit/">スタッフ募集</a></li>
+    </ul>
+    <ul class="l_footer_link_list">
+      <li><a href="/fukuoka-momochi/open/">営業時間</a></li>
+      <li><a href="/fukuoka-momochi/access/">アクセス</a></li>
+      <li><a href="/fukuoka-momochi/service/">施設サービスのご案内</a></li>
+      <li><a href="/fukuoka-momochi/app/">アプリのご案内</a></li>
+      <li><a href="/fukuoka-momochi/mamais/">ママイズ</a></li>
+    </ul>
+    <ul class="l_footer_link_list">
+      <li><a href="/fukuoka-momochi/sitemap/">サイトマップ</a></li>
+      <li><a href="/fukuoka-momochi/notice/">サイトご利用のご注意</a></li>
+      <li><a href="/fukuoka-momochi/sns/">ソーシャルメディアについて</a></li>
+      <li><a href="/fukuoka-momochi/privacypolicy/">プライバシーポリシー</a></li>
+      <li><a href="/fukuoka-momochi/contact/">お問い合わせ</a></li>
+    </ul>
   </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
+  <div class="l_footer_info">
+    <a href="/fukuoka-momochi/" class="l_footer_info_logo">
+      <img src="/fukuoka-momochi/assets/img/common/logo_markisWhite.svg" width="200" height="49" alt="MARK IS 静岡">
+    </a>
+    <p class="l_footer_info_address">〒810-8639 福岡県福岡市中央区地行浜2-2-1<br>お問い合わせ先　092-407-1345(代表) <br class="u_pcHide">受付時間　10:00〜20:00</p>
   </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+  <p class="l_footer_groupText">
+    <img src="/fukuoka-momochi/assets/img/common/txt_mitsubishiGroup.png" alt="人を、思う力。街を、思う力。三菱地所グループ">
+  </p>
+  <small class="l_footer_copyright">Copyright (C) Mitsubishi Jisho Retail Property Management Co..Ltd. All Rights Reserved.</small>
+</footer>
+  </div>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDSbylGdOER16bdFYD8apL1X8rvlAkgo_Y"></script>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'ja',
+        includedLanguages: 'en,ja,ko,zh-CN,zh-TW',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script src="/fukuoka-momochi/assets/js/lib.js"></script>
+  <script src="/fukuoka-momochi/assets/js/main.js"></script>
+  <script src="/fukuoka-momochi/assets/js/app.js"></script>
+  <script src="assets/js/top.js"></script>
 </body>
 </html>
