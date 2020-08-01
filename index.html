@@ -1,42 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 	<title>叶え葉まとめ</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div id="headers">
+	<div class="backgroundImage">
 		<header>
-			<div  class="headers_image">
-				<div class="img_center">
-					<img src="kanaeyo_header.png" alt="ヘッダー" />
+			<div id="headerBanner" class="headers_image">
+				<div class="menuInner">
+					<img src="image/kanaeyo_header.png" width="940" height="300" alt="叶え葉まとめ">
 				</div>
 			</div>
 		</header>
-		<div>
-			<div class="menu u_mb20">
-				<div class="menu_inner">
-					<ul class="menu_items">
-						<li class="menu_item"><a class="active" href="#home">Top</a></li>
-						<li class="menu_item"><a href="#news">Information</a></li>
-						<li class="menu_item"><a href="#contact">Archive</a></li>
-						<li class="menu_item"><a href="#about">CutOut</a></li>
-						<li class="menu_item"><a href="#about">Link</a></li>
-					</ul>
+		<nav id="menuNavigation">
+			<div class="menuInner">
+				<ul id="menu">
+					<li class="current"><a href="index.html">Top<br><span>トップページ</span></a></li>
+					<li><a href="subpage.html">Information<br><span>お知らせ</span></a></li>
+					<li><a href="subpage.html">Archive<br><span>アーカイブ</span></a></li>
+					<li><a href="subpage.html">CutOut<br><span>切り抜き</span></a></li>
+					<li><a href="subpage.html">Link<br><span>リンク</span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="youtube_content">
+			<div class="youtube">
+				<div class="float-left" >
+					<h2>最新アーカイブ</h2>
+					<div class="latest_archive">
+						<iframe class="latest_archive_youtbe" width="400" height="220" src="https://www.youtube.com/embed/ygyMGNysWlQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="float-right" >
+					<h2>おすすめアーカイブ</h2>
+					<div class="recommend_archive">
+						<iframe  class="recommend_archive_youtube" width="400" height="220" src="https://www.youtube.com/embed/naJJEsqrcfo" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="archive contens">
-			<section class="archive_section latest_archive">
-				<h2 class="archive_section_title"><i class="fab fa-instagram"></i>最新アーカイブ</h2>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ygyMGNysWlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</section>
-			<section class="archive_section recommended_archive">
-				<h2 class="archive_section_title"><i class="fab fa-facebook"></i>おすすめアーカイブ</h2>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/naJJEsqrcfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</section>
+		<div class="twitter_content">
+			<div class="twitter_content_1" style="margin: 1em;">
+				<img src="image/kanae.png"width="300" height="533" alt="kanae">
+			</div>
+			<div class="twitter_content_1" style="margin: 1em;" align="center">
+				<a width="320" data-chrome="nofooter noborders" class="twitter-timeline" href="https://twitter.com/Kanae_2434" data-widget-id="512203927857537024">@kawatamachan からのツイート</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="twitter_content_1" style="margin: 1em;" align="center">
+				<a width="320" data-chrome="nofooter noborders" class="twitter-timeline" href="https://twitter.com/Youko_Akabane" data-widget-id="512203927857537024">@kawatamachan からのツイート</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="twitter_content_1" style="margin: 1em;">
+				<img src="image/akabane.png" width="300" height="533" alt="akabane">
+			</div>
 		</div>
+		<!-- フッター -->
 		<footer class="footer">
 			<p class="footer_text">KanaeCannnel/AkabaneYoukoChannnel</p>
 		</footer>
