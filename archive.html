@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Link</title>
+  <link rel="stylesheet" href="css/archive.css" type="text/css" media="screen">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div id="headerBanner" class="headers_image">
+      <div class="menuInner">
+        <img src="image/kanaeyo_header.jpg" width="940" height="300" alt="叶え葉まとめ">
+      </div>
+    </div>
+  </header>
+  <div class="backgroundImage">
+    <nav id="menuNavigation">
+      <div class="menuInner">
+        <ul id="menu">
+          <li><a href="top.html">Top<br><span>トップページ</span></a></li>
+          <li><a href="#">Information<br><span>準備中</span></a></li>
+          <li class="current"><a href="archive.html">Archive<br><span>アーカイブ</span></a></li>
+          <li><a href="#">CutOut<br><span>準備中</span></a></li>
+          <li><a href="link.html">Link<br><span>リンク</span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <img src="image/blue_heart.png" style="vertical-align:top;" width="200" height="150" alt="blue_heart" class="blue_heart">
+    <div id="archive_content">
+      <div class="cp_menu">
+        <div class="float-left" >
+          <label for="cp_menu_bar1">PUBG</label>
+          <input type="radio" name="radio" id="cp_menu_bar1" class="accordion" />
+          <ul id="PUBG">
+            <li><a href="#" id="pubg-2018" onclick="getId(this);">2018年</a></li>
+            <li><a href="#" id="pubg-2019" onclick="getId(this);">2019年</a></li>
+            <li><a href="#"  id="pubg-2020" onclick="getId(this);">2020年</a></li>
+          </ul>
+          <label for="cp_menu_bar2">StardewVallery</label>
+          <input type="radio" name="radio" id="cp_menu_bar2" class="accordion" />
+          <ul id="StardewVallery">
+            <li><a href="#" id="StardewValley-1" onclick="getId(this);">かなえようこ牧場</a></li>
+            <li><a href="#" id="StardewValley-2" onclick="getId(this);">おっけー牧場</a></li>
+          </ul>
+          <label for="cp_menu_bar4">単発ゲーム</label>
+          <input type="radio" name="radio" id="cp_menu_bar4" class="accordion" />
+          <ul id="単発">
+            <li><a href="#" id="Game-2018" onclick="getId(this);">2018年</a></li>
+            <li><a href="#" id="Game-2019" onclick="getId(this);">2019年</a></li>
+            <!-- <li><a href="#" id="Game-2020" onclick="getId(this);">2020年</a></li> -->
+          </ul>
+          <label for="cp_menu_bar3">雑談・企画等</label>
+          <input type="radio" name="radio" id="cp_menu_bar3" class="accordion" />
+          <ul id="雑談・企画">
+            <li><a href="#" id="FreeTalk" onclick="getId(this);">雑談・記念枠</a></li>
+            <li><a href="#" id="collabo" onclick="getId(this);">企画・外部コラボ系</a></li>
+          </ul>
+          <div class="cp5">
+            <a href="#" id="kanaeyoCollabo" onclick="getId(this);" class="cp_menu_bar5">叶え葉2人コラボ</a>
+            <div class="border_font">
+              <p class="kanae_border" align="right">叶枠</p>
+              <p class="akabane_border" align="right">赤羽葉子枠</p>
+              <p class="other_border" align="right">他枠/公式枠</p>
+            </div>
+          </div>
+          <script type="text/javascript">
+          $(function(){
+            console.log(document.getElementById("box2").innerHTML)
+            if (document.getElementById("box2").innerHTML == "") {
+              $("#box2").load("archive_page/kanaeyoCollabo.html");
+            };
+          });
+          </script>
+        </div>
+        <div class="float-right" >
+          <div id="box2" class="box2"></div>
+        </div>
+        <script>
+        function getId(ele){
+          $("#box2").load("archive_page/"+ele.id+".html");
+        }
+        </script>
+      </div>
+    </div>
+    <div class="footer_image">
+      <img src="image/tree.png" style="vertical-align:bottom;" width="700" height="139" alt="true" class="tree_image">
+    </div>
+    <footer class="footer">
+      <p id="footer_text" class="footer_text">
+        本サイトはファンが作成した、にじさんじ所属の叶さん・赤羽葉子さんの非公式ファンサイトです。<br>
+        いちから株式会社様及びにじさんじプロジェクトとは一切関係ありませんのでご注意ください。<br>
+        また、このサイトの画像及びテキスト等の無断複製・転載使用を禁じます。<br>
+        何かありましたら<a href="https://twitter.com/akane_2434">こちら</a>まで。
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
